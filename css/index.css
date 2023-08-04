@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Gobal Css Property */
+.btn{
+    text-align: center;
+    background-color: orange;
+    width: 20%;
+    font: 300 1.2vmax sans-serif;
+    border-radius: 10px;
+    color: white;
+}
+
+.Container{
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(../Image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* navbar Section */
+.madContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax;
+    height: 10vh;
+}
+
+.madContainer .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.madContainer .navContainer{
+    width: 60%;
+}
+
+.madContainer .navContainer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.madContainer .navContainer ul li{
+    font: 600 1vmax sans-serif;
+}
+
+.madContainer .navContainer ul li .active{
+    color: orange;
+}
+
+.madContainer .navContainer ul li a{
+    color: white;
+}
+
+/* banner Section */
+.bannerContainer{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.bannerContainer .left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bannerContainer .left h1{
+    font: 700 5vmax sans-serif;
+    padding-left: 15vmax;
+    padding-bottom: 1vmax;
+    color: white;
+}
+
+.bannerContainer .left span{
+    color: orange;
+}
+
+.bannerContainer .left a{
+    margin-left: 15vmax;
+    margin-top: 1vmax;
+    padding: 1vmax;
+}
+
+.bannerContainer .right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer .icon{
+    position: absolute;
+    margin: 1vmax;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(30vmax);
+}
+
+.bannerContainer .icon .fa-brands{
+    padding: 1vmax;
+    color: white;
+}
+
+/* camping Section */
+.campingContainer{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    background-image: url(../Image/2a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1vmax;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.campingContainer .discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 23vh;
+}
+
+.campingContainer .discover::before{
+    position: absolute;
+    transform: translateX(24vmax);
+    content: 'Camping';
+    color: rgb(33, 113, 233);
+    width: 100%;
+    font: 600 11vmax sans-serif;
+    opacity: 0.3;
+}
+
+.campingContainer span{
+    width: 5%;
+    background-color: orange;
+    height: 0.3vh;
+}
+
+.campingContainer h4{
+    color: orange;
+    font: 600 1.4vmax sans-serif;
+}
+
+.campingContainer .heading{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font: 800 3.5vmax sans-serif;
+   color: white;
+}
+
+.campingContainer .infoContainer{
+    width: 50%;
+    height: 100vh;
+}
+
+.campingContainer .infoContainer p{
+    margin-left: 10vmax;
+    margin-top: 2vmax;
+    width: 60%;
+    font: 300 1.1vmax sans-serif;
+    color: white;
+    line-height: 2vmax;
+}
+
+.campingContainer .infoContainer .btn{
+    margin-left: 10vmax;
+    margin-top: 2vmax;
+    padding: 1vmax;
+}
+
+/* Trekking Section */
+.TrekkingContainer{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    background-image: url(../Image/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1vmax;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.TrekkingContainer .discoverTrekking{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 23vh;
+}
+
+.TrekkingContainer .discoverTrekking::before{
+    position: absolute;
+    content: 'Trekking';
+    color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font: 600 11vmax sans-serif;
+    opacity: 0.4;
+}
+
+.TrekkingContainer span{
+    width: 5%;
+    background-color: orange;
+    height: 0.3vh;
+}
+
+.TrekkingContainer h4{
+    color: orange;
+    width: 30%;
+    font: 600 1.4vmax sans-serif;
+}
+
+.TrekkingContainer .headingTrekking{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   font: 800 3.5vmax sans-serif;
+   color: white;
+}
+
+.TrekkingContainer .headingTrekking h1{
+    width: 40%;
+}
+
+.TrekkingContainer .Trekkingright{
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.TrekkingContainer .infoContainer{
+    width: 50%;
+}
+
+.TrekkingContainer .infoContainer p{
+    margin-left: 10vmax;
+    margin-top: 2vmax;
+    width: 60%;
+    font: 300 1.1vmax sans-serif;
+    color: white;
+    line-height: 2vmax;
+}
+
+.TrekkingContainer .infoContainer .btn{
+    margin-left: 10vmax;
+    margin-top: 2vmax;
+    padding: 1vmax;
+}
+
+/* Adventure Section */
+.AdventureContainer{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    background-image: url(../Image/ad1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1vmax;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.AdventureContainer .discoverAdventure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 23vh;
+}
+
+.AdventureContainer .discoverAdventure::before{
+    position: absolute;
+    transform: translateX(24vmax);
+    content: 'Adventure Sports';
+    color: rgb(119, 128, 129);
+    width: 100%;
+    font: 600 8vmax sans-serif;
+    opacity: 0.4;
+}
+
+.AdventureContainer span{
+    width: 5%;
+    background-color: orange;
+    height: 0.3vh;
+}
+
+.AdventureContainer h4{
+    color: orange;
+    font: 600 1.4vmax sans-serif;
+}
+
+.AdventureContainer .headingAdventure{
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font: 800 2.8vmax sans-serif;
+   color: orange;
+}
+
+.AdventureContainer .infoContainer{
+    width: 50%;
+    height: 100vh;
+}
+
+.AdventureContainer .infoContainer p{
+    margin-left: 11vmax;
+    margin-top: 2vmax;
+    width: 60%;
+    font: 300 1.1vmax sans-serif;
+    color: white;
+    line-height: 2vmax;
+}
+
+.AdventureContainer .infoContainer .btn{
+    margin-left: 11vmax;
+    margin-top: 2vmax;
+    padding: 1vmax;
+}
